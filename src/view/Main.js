@@ -1,5 +1,6 @@
 import React from "react";
 import img_7 from "../img/img_7.png"
+import logo from "../img/Logo.png"
 import {Link} from 'react-router-dom'
 
 function Main() {
@@ -7,7 +8,10 @@ function Main() {
       <div class="container">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page">Aqui se supone que va el nombre del juego</a>
+          <img src={logo} style={{
+            padding: "10px",  
+            width: "125px",
+            }}></img>
         </li>
         <li class="nav-item" style={{
               padding: "10px",                
