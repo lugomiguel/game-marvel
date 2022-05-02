@@ -5,9 +5,14 @@ import {Link} from 'react-router-dom'
 function Lobby() {
     return (
         <div>
+          <div>
+            <Link to="/lobby">Abandonar</Link>           
+          </div>
+          <div>
+            
+          </div>
         <div>
           <h1>La ultima vista es el juego</h1>
-          <Link to="/game">Siguiente vista</Link> 
         </div>
         <br/>
         <img src={img6}/>

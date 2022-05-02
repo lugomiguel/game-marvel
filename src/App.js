@@ -3,6 +3,7 @@ import Main from './view/Main'
 import Lobby from './view/Lobby'
 import Game from './view/Game'
 import style from './styles/general.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
