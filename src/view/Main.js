@@ -8,7 +8,7 @@ function Main() {
     return (
       <div>
         <div>
-          <h1>hola chicos aca toca hacer esta vista</h1>
+          <h1>hola chicos aca toca hacer esta vista </h1>
           <Link to="/lobby">Siguiente vista</Link> 
         </div>
         <br/>

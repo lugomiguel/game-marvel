@@ -2,6 +2,7 @@ import React from "react";
 import Main from './view/Main'
 import Lobby from './view/Lobby'
 import Game from './view/Game'
+import style from './styles/general.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
